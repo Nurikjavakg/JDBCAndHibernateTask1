@@ -82,6 +82,7 @@ public class UserDaoJdbcImpl implements UserDao {
 
     }
 
+
     public List<User> getAllUsers() {
         List<User>users = new ArrayList<>();
         String sql = "select * from users";
